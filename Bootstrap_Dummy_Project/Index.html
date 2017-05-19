@@ -1,0 +1,472 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <!--NavBars-->
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Bootstrap Practice Project</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">Link</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">One more separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="navbar-form navbar-left">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Link</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container -->
+    </nav>
+    <!--Jumbotron-->
+    <div class="jumbotron text-center">
+        <div class="container">
+            <h1>Welcome to my website</h1>
+            <p>
+                Bootstrap practice project
+            </p>
+            <a href="#" class="btn btn-primary">Read on</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1 class="page-header">Hello, world! <small>Secondary Text</small></h1>
+        <p class="lead">
+            ipsum dolor sit amet, consectetuer adipiscing elit.
+            Aenean commodo ligula eget dolor. Aenean massa.
+        </p>
+        <p>
+            <mark>
+                Cum sociis natoque penatibus et magnis dis parturient montes,
+            </mark>
+
+            nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+            pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo,
+            fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo,
+            rhoncus ut, imperdiet a, venenatis vitae, justo.<del>
+                Nullam dictum felis eu
+                pede mollis pretium. Integer tincidunt.
+            </del> Cras dapibus. Vivamus elementum semper
+            nisi. <u>This is usnderlined</u>Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu,
+            consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis,
+            feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.
+            Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.
+            Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus,
+            sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc,
+            blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt
+            tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam
+            sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.
+            Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus
+
+        </p>
+        <hr />
+        <!--Alingment &Transformations-->
+        <p class="text-left text-lowercase">Left Aligned text</p>
+        <p class="text-center text-uppercase">Center Aligned text</p>
+        <p class="text-right text-capitalize">right aligned text</p>
+        <p class="text-justify">Justified  text</p>
+        <p class="text-nowrap">No wrap text</p>
+
+        <!--Quick Floats-->
+        <div class="pull-right">Div floated to right</div>
+        <div class="pull-left">Div floated to left</div>
+        <!--Clear Float-->
+        <div class="clearfix"></div>
+        <hr />
+        <!--BlockQuote-->
+        <blockquote class="blockquote-reverse">
+            <p>Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus</p>
+            <footer>Quote by <cite title="John Doe">John Doe</cite></footer>
+        </blockquote>
+
+        <hr />
+        <!--Lists-->
+        <ul class="list-unstyled">
+            <li>One</li>
+            <li>two</li>
+            <li>three</li>
+        </ul>
+
+        <ul class="list-inline ">
+            <li>One</li>
+            <li>two</li>
+            <li>three</li>
+        </ul>
+        <br />
+        change directory  with<kbd>cd</kbd>
+        <hr />
+        <!--Contextual colours ->Can be used with different control types-->
+        <p class="text-info">Hello world</p>
+        <p class="text-success">Hello world</p>
+        <p class="text-info">Hello world</p>
+        <p class="text-warning">Hello world</p>
+        <p class="text-danger">Hello world</p>
+        <p class="text-muted">Hello world</p>
+        <button class="btn btn-default">default</button>
+        <button class="btn btn-info btn-xs">info</button>
+        <button class="btn btn-success">success</button>
+        <button class="btn btn-info btn-sm">info</button>
+        <button class="btn btn-warning">warningd</button>
+        <button class="btn btn-danger btn-lg">danger</button>
+        <button class="btn btn-muted">Hello world</button>
+        <button class="btn btn-link" disabled="disabled">danger</button>
+
+        <p class="bg-info">Hello world</p>
+        <p class="bg-success">Hello world</p>
+        <p class="bg-info">Hello world</p>
+        <p class="bg-warning">Hello world</p>
+        <p class="bg-danger">Hello world</p>
+        <br />
+        <a href="#" class="btn btn-success" role="button"> Link</a>
+        <hr />
+
+
+
+    </div>
+    <!--FORMS-->
+    <div class="container">
+        <!--Form (Vertical)-->
+        <from>
+            <div class="form-group">
+                <label>Name :</label>
+                <input type="text" class="form-control" placeholder="Name" />
+            </div>
+
+            <div class="form-group">
+                <label>Email :</label>
+                <input type="email" class="form-control" placeholder="Name" />
+            </div>
+
+            <div class="form-group">
+                <label>Address :</label>
+                <textarea class="form-control" placeholder="Address"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>Gender :</label>
+                <select class="form-control">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Upload File</label>
+                <input type="file" />
+                <p class="help-block">Only png and jpg</p>
+            </div>
+
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" /> Select terms and condition
+                </label>
+            </div>
+
+        </from>
+        <hr />
+        <!--Form Inline (Horizontal)-->
+        <from class="form-inline">
+            <div class="form-group">
+                <label>Name :</label>
+                <input type="text" class="form-control" placeholder="Name" />
+            </div>
+
+            <div class="form-group">
+                <label>Email :</label>
+                <input type="email" class="form-control" placeholder="Name" />
+            </div>
+
+            <div class="form-group">
+                <label>Address :</label>
+                <textarea class="form-control" placeholder="Address"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>Gender :</label>
+                <select class="form-control">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Upload File</label>
+                <input type="file" />
+                <p class="help-block">Only png and jpg</p>
+            </div>
+
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" /> Select terms and condition
+                </label>
+            </div>
+        </from>
+
+    </div>
+    <hr />
+    <!--Tables-->
+    <div class="container">
+        <!--1. table class will added proper alingment
+            2. table-striped will add alternate color in rows
+            3. table-bordered will add border to table
+            4. table-hover will add hover effect on hovering
+            5. table-condensed will remove padding between rows
+
+            classes added to tr will add the  color to them as per class
+        -->
+        <table class="table table-striped table-bordered table-hover table-condensed">
+            <tr>
+                <td>First Name</td>
+                <td>Last Name</td>
+                <td>Age</td>
+            </tr>
+            <tr class="danger">
+                <td>Ruchir</td>
+                <td>Saxena</td>
+                <td>30</td>
+            </tr>
+            <tr class="info">
+                <td>Suresh</td>
+                <td>Kumar</td>
+                <td>28</td>
+            </tr>
+            <tr class="primary">
+                <td>Rajesh</td>
+                <td>Sharma</td>
+                <td>44</td>
+            </tr>
+            <tr class="success">
+                <td>Amit</td>
+                <td>Trivedi</td>
+                <td>33</td>
+            </tr>
+        </table>
+    </div>
+    <hr />
+    <!--List Group-->
+    <div class="container">
+        <ul class="list-group">
+            <li class="list-group-item">one</li>
+            <li class="list-group-item">two</li>
+            <li class="list-group-item">three</li>
+            <li class="list-group-item">four</li>
+        </ul>
+        <!--List Group with anchor-->
+        <div class="list-group">
+            <a href="#" class="list-group-item">one</a>
+            <a href="#" class="list-group-item active">two</a>
+            <a href="#" class="list-group-item">three</a>
+            <a href="#" class="list-group-item list-group-item-success">four</a>
+        </div>
+    </div>
+    <hr />
+    <!--PANELS-->
+    <div class="container">
+        <div class="panel panel-danger">
+            <div class="panel-heading">
+                <h3 class="panel-title">Panel title</h3>
+            </div>
+            <div class="panel-body">
+                This is panel content
+                This is panel content
+                This is panel content
+                This is panel content
+                This is panel content
+
+            </div>
+            <div class="panel-footer">
+                This is panel footer
+            </div>
+        </div>
+        <!--Wells-->
+        <div class="well">
+            Hello World
+        </div>
+        <div class="well well-lg">
+            Hello World
+        </div>
+        <div class="well well-sm">
+            Hello World
+        </div>
+
+        <!--Alerts-->
+        <div class="alert alert-success" role="alert"> This is an alert</div>
+        <div class="alert alert-danger" role="alert"> This is an alert</div>
+        <div class="alert alert-info" role="alert"> This is an alert</div>
+
+        <!--Alert with dismiss-->
+        <div class="alert alert-warning alert-dismissible" role="alert">
+            <button type="button" class="close" data-dissmiss="alert"><span>&times;</span></button>
+            you can close this alert
+        </div>
+        <hr />
+        <!--Progress Bars-->
+        <div class="progress">
+            <div class="progress-bar progress-bar-success progress-bar-striped active" style="width:80%">
+                80%
+            </div>
+        </div>
+        <hr />
+        <!--Labels --->
+        <span class="label label-success">Success</span>
+        <span class="label label-warning">warning</span>
+        <span class="label label-danger">danger</span>
+        <h1><span class="label label-info">info</span></h1>
+        <br />
+        <!--Badges-->
+
+        <a href="#">
+            Inbox
+            <span class="badge">
+                50
+            </span>
+        </a>
+        <button class="btn btn-primary" type="button">
+            Messages <span class="badge">2</span>
+        </button> 
+
+        <!--Images-->
+        <img class="thumbnail" src="http://thumb9.shutterstock.com/thumb_large/1861937/297921926/stock-photo-path-into-the-sun-297921926.jpg" />
+        <img class="img-rounded" src="http://thumb10.shutterstock.com/thumb_large/624226/417005893/stock-photo-a-businessman-in-doubt-having-to-choose-between-three-different-choices-indicated-by-arrows-417005893.jpg" />
+        <img class="img-circle" src="http://thumb10.shutterstock.com/thumb_large/624226/417005893/stock-photo-a-businessman-in-doubt-having-to-choose-between-three-different-choices-indicated-by-arrows-417005893.jpg" />
+
+    </div>
+    <hr />
+    <!--Bootstrap Grid System
+       Basically grid system is broken into 12 parts ,
+       normally we use 8 colums for main layout and 4 for side-bar   
+        we can further manage the grid system by using md(medium), sm(small medium),xs(extra small),lg(large)
+    -->
+    <div class="container">
+        <!--8 and 4 combination-->
+        <div class="row">
+            <div class="col-md-8 col-sm-8 col-xs-8">
+                <p>
+                    Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.
+                    Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus,
+                    sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc,
+                    blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt
+                    tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam
+                    sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.
+                    Donec sodales sagittis magna. Sed consequat,
+                    leo eget bibendum sodales, augue velit cursus
+                </p>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-4">
+                <p>
+                    Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.
+                    Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus,
+                    sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc,
+                    blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt
+                    tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam
+                    sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.
+                    Donec sodales sagittis magna. Sed consequat,
+                    leo eget bibendum sodales, augue velit cursus
+                </p>
+            </div>
+          </div> 
+        <hr />
+        <!--3 *4 combination-->
+            <div class="row">
+                <div class="col-md-3">
+                    <p>
+                        Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.
+                        Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus,
+                        sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc,
+                        blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt
+                        tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam
+                        sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.
+                        Donec sodales sagittis magna. Sed consequat,
+                        leo eget bibendum sodales, augue velit cursus
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <p>
+                        Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.
+                        Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus,
+                        sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc,
+                        blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt
+                        tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam
+                        sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.
+                        Donec sodales sagittis magna. Sed consequat,
+                        leo eget bibendum sodales, augue velit cursus
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <p>
+                        Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.
+                        Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus,
+                        sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc,
+                        blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt
+                        tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam
+                        sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.
+                        Donec sodales sagittis magna. Sed consequat,
+                        leo eget bibendum sodales, augue velit cursus
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <p>
+                        Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.
+                        Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus,
+                        sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc,
+                        blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt
+                        tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam
+                        sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.
+                        Donec sodales sagittis magna. Sed consequat,
+                        leo eget bibendum sodales, augue velit cursus
+                    </p>
+                </div>
+            </div>
+        </div>
+    <div style="height:400px"></div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

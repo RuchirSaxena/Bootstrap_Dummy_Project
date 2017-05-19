@@ -1,0 +1,68 @@
+Bootstrap
+--------------
+1.Front-End Framework For UIs and themes
+2.It uses HTML/CSS/javascipt
+3.Used for building responsive , mobile first web applications and websites
+4.Most popular framework by far
+
+Why Bootstrap
+----------------
+1.Incresed development speed
+2.Responsiveness
+3.Consistency ->Bootstrap Grid Sytem
+4.Customizable
+5.Support
+
+HTML/CSS Components & Helpers
+---------------------------------
+1.Navbar & DropDown
+2.Jumbotron
+3.Alerts and progressbar
+4.Form and Input
+5.Buttons and links
+6.Labels and Badges
+5.Icons
+6.List Groups
+7.Wells and Panel
+8.Pagination
+9.Thumbnails
+10.Tables
+11.Grid System
+12.Responsive Utilities
+
+Javascrip Widgets and Helpers
+---------------------------------
+1.Transitions
+2.Modals
+3.DropDwns
+4.Tabs
+5.Carousel/Slider
+6.Alerts
+7.Popovers
+8.Tooltips
+9.Collapsable Elements
+
+*jquery is required for all Javascript widgets
+
+
+Different Classes and there description
+
+1.page-header -> Can be used with <h1> tags to give proper margins and a line below header
+2.<small> ->Html 5 tag used for smaller related text crestion with header
+3.lead ->Its used as a type of heading in para
+4.<mark> ->Its used to highlight some text in para.
+5.<del> ->Its used to markout text
+6.text-left, right , center, justify ,nowrap -> used with p tagTo aling text left,right , center, justify ,nowrap
+7.text-lowercase ,uppercase ,capitalize -> used with p tag Used to make text lower,upper, capitalize: first letter
+8.pull-right , pull-left -> used to align div in right or left side .Not after these clases we need to use clearfix class for clearing float
+9.<blockquote> and blockquote class -> is used for maninging quotes along with <footer>Quote by <cite title="John Doe">John Doe</cite></footer>
+10.<blockquote-reverse>-> Used to reverse blockquote and aling everything to right
+11.list-unstyled -> used to remove the style from lists ,removing dots
+12.list-inline -> used to display li items in 1 line
+13.
+
+
+
+
+
+
